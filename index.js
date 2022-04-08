@@ -102,10 +102,8 @@ $(document).ready(function () {
 
 function getBurger () {
     const { burgers, fillings } = data;
-    console.log({burgers:getRandomFromLength(burgers.length - 1) , fillings})
     const burger = burgers[getRandomFromLength(burgers.length - 1)];
     const filling = fillings[getRandomFromLength(fillings.length - 1)];
-    console.log({filling})
     const variant = filling.variants
       ? filling.variants[getRandomFromLength(filling.variants.length - 1)]
       : "";

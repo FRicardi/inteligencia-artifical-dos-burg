@@ -35,5 +35,6 @@ body {
 }
 
 #burger-image {
-    max-width: 250px
+    width: 400px;
+    max-width: 100%
 }

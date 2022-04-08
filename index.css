@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    max-width: 50%;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+#lucky-button {
+    font-size: 60px;
+    font-family: 'Rubik Puddles', cursive;
+    cursor: pointer;    
+}
+
+#burger {
+    text-align: center;
+}
+
+#burger-image {
+    width: 100%
+}
